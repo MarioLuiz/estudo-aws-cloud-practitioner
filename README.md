@@ -35,5 +35,8 @@ O cliente é responsável pela segurança dentro da Nuvem
 
 Para saber mais acesse: https://aws.amazon.com/pt/compliance/shared-responsibility-model/
 
+Console = O próprio site da AWS
 
+CLI = Command line Interface
 
+CloudShell = Command line Interface on Cloud
