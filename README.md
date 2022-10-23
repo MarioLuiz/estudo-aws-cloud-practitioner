@@ -40,3 +40,10 @@ Console = O próprio site da AWS
 CLI = Command line Interface
 
 CloudShell = Command line Interface on Cloud
+
+----------++++++++++----------++++++++++----------++++++++++----------++++++++++----------
+
+Infraestrutura Global da AWS
+
+Os serviços disponibilizados pela AWS são liberados por região, ou seja, temos que verificar quais serviçoes estão disponiveis na regiao em que você vai utilizar.
+
