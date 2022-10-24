@@ -47,3 +47,6 @@ Infraestrutura Global da AWS
 
 Os serviços disponibilizados pela AWS são liberados por região, ou seja, temos que verificar quais serviçoes estão disponiveis na regiao em que você vai utilizar.
 
+Regiões AWS
+ 
+Os nomes das regiões são dados conforme o pais e local onde elas estão localizadas Ex: us-east-2 (Siginigica que está regiao fica nos Estados Unidos na parte leste e é a 2 unidade nesta area)
