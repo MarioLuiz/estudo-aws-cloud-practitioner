@@ -50,3 +50,8 @@ Os serviços disponibilizados pela AWS são liberados por região, ou seja, temo
 Regiões AWS
  
 Os nomes das regiões são dados conforme o pais e local onde elas estão localizadas Ex: us-east-2 (Siginigica que está regiao fica nos Estados Unidos na parte leste e é a 2 unidade nesta area)
+
+Zonas de Disponibilidade
+
+Dentro de cada região temos uma ou varias zonas de disponibilidades ( AZ ) que são os proprios Data Center.
+
