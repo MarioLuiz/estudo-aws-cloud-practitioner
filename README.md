@@ -55,3 +55,20 @@ Zonas de Disponibilidade
 
 Dentro de cada região temos uma ou varias zonas de disponibilidades ( AZ ) que são os proprios Data Center.
 
+Zonas Locais AWS
+
+Ficam próximas as Zonas de disponibilidades e conectadas a elas.
+
+AWS Wavelenght
+
+São servidores que ficam dentro de uma Operadora de Telefonia/Internet (TIM, CLARO, OI, VIVO) que tem conexão direta com as Zonas de Disponibilidade mais proxima.
+
+AWS OutSpots
+
+AWS coloca os equipamentos dela (Servidor) dentro de Data Centers de terceiros ou espaço de accommodation .
+
+----------++++++++++----------++++++++++----------++++++++++----------++++++++++----------
+
+
+
+
