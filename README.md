@@ -69,6 +69,22 @@ AWS coloca os equipamentos dela (Servidor) dentro de Data Centers de terceiros o
 
 ----------++++++++++----------++++++++++----------++++++++++----------++++++++++----------
 
+IAM = Identity Access Management
+
+Recurso da AWS Servless que você tem privilégio ou não para iniciar/executar qualquer ação dentro da AWS, através dele você consegue criar/gerenciar: Usuarios, regras, Federed Users, Aplications, grupos.
+
+Tipos de Politica 
+
+IBP  = Identity Base Policy
+RBP = Resource Base Policy
+
+Quando um usuário é criado ele pode acessar sua conta (Console, CLI e API), mas vem sem privilégios, ou seja sem permições.
+
+Grupos são criados para organizar os usuários.
+
+Roles podem ser aplicadas a serviços.
+
+Police são regras onde você pode permitir acesso a determinado serviço a Grupos ou Usuários.
 
 
 
