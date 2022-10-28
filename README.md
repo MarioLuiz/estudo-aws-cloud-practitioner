@@ -86,5 +86,11 @@ Roles podem ser aplicadas a serviços.
 
 Police são regras onde você pode permitir acesso a determinado serviço a Grupos ou Usuários.
 
+Todos os privilégios do usuário são descritos em Json, sempre que que um usuário pede/acessa determinado serviço 1 coisa a ser verificada é esse docmento Json e quais os privilégios dele.
+
+Usuário Logando via console é solicitado: nome, senha, MFA (Opcional).
+Usuário Logando via CLI/API é solicitado: Acces Key ID, Secret Access key.
+
+MFA =  Multi Factor Authentication
 
 
