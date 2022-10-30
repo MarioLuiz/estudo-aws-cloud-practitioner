@@ -102,5 +102,19 @@ EC2 = Elastic Compute Cloud
 
 A virtualização é uma técnica que permite a criação de uma máquina virtual para funcionar dentro do sistema de um PC/Servidor. O processo permite, por exemplo, a execução de sistemas operacionais completos ou uma simulação do comportamento do sistema para quem trabalha com desenvolvimento de software e testes de segurança.
 
+Instancias EC2
+
+Virtualização na AWS é o EC2, 
+EC2 = Elastic Compute Cloud
+
+A virtualização é uma técnica que permite a criação de uma máquina virtual para funcionar dentro do sistema de um PC/Servidor. O processo permite, por exemplo, a execução de sistemas operacionais completos ou uma simulação do comportamento do sistema para quem trabalha com desenvolvimento de software e testes de segurança.
+
+Vantagens do EC2
+
+- Controle Completo sobre a instancia, Ex: Aumentar memória, Aumentar Ram e etc.
+- Segurança
+- AWS services : Acesso direto a todos outros serviços da AWS
+- Low Cost: Baixo custo
+- Unconplicated : muito facil criar instancias EC2
 
 
