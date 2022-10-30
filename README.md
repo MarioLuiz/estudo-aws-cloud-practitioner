@@ -93,4 +93,14 @@ Usuário Logando via CLI/API é solicitado: Acces Key ID, Secret Access key.
 
 MFA =  Multi Factor Authentication
 
+----------++++++++++----------++++++++++----------++++++++++----------++++++++++----------
+
+Instancias EC2
+
+Vitualização na AWS é o EC2, 
+EC2 = Elastic Compute Cloud
+
+A virtualização é uma técnica que permite a criação de uma máquina virtual para funcionar dentro do sistema de um PC/Servidor. O processo permite, por exemplo, a execução de sistemas operacionais completos ou uma simulação do comportamento do sistema para quem trabalha com desenvolvimento de software e testes de segurança.
+
+
 
