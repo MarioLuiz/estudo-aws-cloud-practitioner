@@ -117,4 +117,11 @@ Vantagens do EC2
 - Low Cost: Baixo custo
 - Unconplicated : muito facil criar instancias EC2
 
+User Data
+
+User data é o código (Batch ou PowerShell dependendo do SO) que você coloca para rodar apenas uma vez quando sua instância for iniciada.
+![image](https://user-images.githubusercontent.com/11471499/199140795-288efdae-9ef6-4df1-b9d3-c014905b99ec.png)
+
+
+
 
