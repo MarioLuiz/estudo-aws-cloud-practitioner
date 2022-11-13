@@ -123,5 +123,7 @@ User data é o código (Batch ou PowerShell dependendo do SO) que você coloca p
 ![image](https://user-images.githubusercontent.com/11471499/199140795-288efdae-9ef6-4df1-b9d3-c014905b99ec.png)
 
 
+Acessando dados S3 via EC2
 
-
+1 Modo- Está maneira não é tão recomendada pois pode salva o acces key e secret do usuário IAM na maquina EC2, então se a maquina for invadida esses dados estarão visiveis.
+Para configurar precisa acessar o pront de comando e colocar "aws configure" e colocar preencher com as informações.
