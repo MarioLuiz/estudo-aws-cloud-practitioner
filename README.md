@@ -127,3 +127,5 @@ Acessando dados S3 via EC2
 
 1 Modo- Está maneira não é tão recomendada pois pode salva o acces key e secret do usuário IAM na maquina EC2, então se a maquina for invadida esses dados estarão visiveis.
 Para configurar precisa acessar o pront de comando e colocar "aws configure" e colocar preencher com as informações.
+
+2 Modo - Maneira recomendada Criar uma Role no IAM para EC2 de acesso ao S3 e depois ir nas instancias EC2, Selecionar a instancia > Acations > Security > Modify iam role, selecionar a role que criou.
