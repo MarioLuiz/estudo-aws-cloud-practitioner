@@ -129,3 +129,11 @@ Acessando dados S3 via EC2
 Para configurar precisa acessar o pront de comando e colocar "aws configure" e colocar preencher com as informações.
 
 2 Modo - Maneira recomendada Criar uma Role no IAM para EC2 de acesso ao S3 e depois ir nas instancias EC2, Selecionar a instancia > Acations > Security > Modify iam role, selecionar a role que criou.
+
+AWS Batch = LOTE/GRUPO
+
+Serviço da AWS que foi criado para rodar scripts em lotes/Grupos.
+
+![image](https://user-images.githubusercontent.com/11471499/202064102-dbfbf1b1-6cf5-4412-83a8-2c4e20d6f987.png)
+
+
