@@ -136,4 +136,32 @@ Serviço da AWS que foi criado para rodar scripts em lotes/Grupos.
 
 ![image](https://user-images.githubusercontent.com/11471499/202064102-dbfbf1b1-6cf5-4412-83a8-2c4e20d6f987.png)
 
+Você pode Criar um Job via Shell Scripts ou Docker images.
+
+AWS LightSail = Navegar com facilidade 
+
+EC2 (Complexo) = LightSail (Simples)
+
+Dockers Containers
+
+![image](https://user-images.githubusercontent.com/11471499/206877633-fe82acca-dee2-4f13-9bb1-576c68114ce6.png)
+
+ECS = Elastic Container Server ( Docker )
+
+Task = Container
+
+Registry = Docker Image (ECR = Elastic Container Registry)
+
+ECS Service gerencia/ configura quantos containers  vao estar no ECS cluster e quais suas características
+
+ECS Container instance é onde fica as configurações dos containers que são chamadas de Task Definition
+
+
+
+Existem dois tipos de ECS 
+
+ECS EC2 Cluster (Você Gerencia)
+
+ECS Fargate (ServerLess)
+
 
