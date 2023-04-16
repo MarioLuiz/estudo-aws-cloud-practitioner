@@ -157,11 +157,73 @@ ECS Service gerencia/ configura quantos containers  vao estar no ECS cluster e q
 ECS Container instance é onde fica as configurações dos containers que são chamadas de Task Definition
 
 
-
 Existem dois tipos de ECS 
 
 ECS EC2 Cluster (Você Gerencia)
 
 ECS Fargate (ServerLess)
+
+ECS Lunch
+
+Nginx -> servidor Web = Container dentro do serviço de ECS
+
+----------++++++++++----------++++++++++----------++++++++++----------++++++++++----------
+
+Storage da Amazon
+
+Simple store service = S3
+Amazon Glacier
+EFS
+SnowBall
+CloudFront
+StorageGateway
+EBS (Elastic block storage)
+Instance Store EC2
+
+Tipos de Storage por categorias
+
+Block Storage ( Arquivos que são guardados em formatos de blocos / Low Latency / DAS)
+File Storage ( Dados armazenados para depois serem compartilhados 1 ou x users / NAS)
+Object Storage ( Objetos / Meta Data)
+
+EBS (Elastic block storage)
+
+O Volume EBS é criado para que uma instancia EC2 possa acessá-lo, para isso os dois serviços tem que estar na mesma 
+AZ (Avaliable Zone), para usar o EBS multi Attach ( tipo de disco IO 1) pode ser acessado por mais de uma instancia EC2
+(Tipo Nitro). 
+
+Tipos de Volume EBS
+
+Tipo SSD (Solid State drive) Rapido porem caro
+Tipo HDD (Hard Disc Drive) Lento porem barato
+
+Tipos de volumes são variados na AWS, olhe no link e veja todos os tipos de disco, pois cae na prova:
+https://aws.amazon.com/pt/ebs/volume-types/
+
+SnapShot
+
+Como o próprio nome diz é uma foto tirada do disco, ou seja, um backup 
+
+AMI (Amazon Machine Images)
+
+Existem 2 tipos de imagens (Public e Private)
+
+
+S3 (Amazon Simple Storage Service)
+
+Primeiro serviço de armazenamento da Amazon, ele não possui limite de dados, um Buckut (Pasta) 
+O nome da buckut tem que ser unico universalmente, o objeto armazenado na Bucket pode ter de 0 a
+5 Tb de tamanho.
+Aws garante durabilidade  e disponibilidade.
+Conta FreeTier pode armazenar até 5Gb por 12 meses sem cobrar nada a mais.
+
+Definição de Preço do Amazon S3
+
+Classes de Armazenamento S3 , para saber mais sobre os preços acesse: https://aws.amazon.com/pt/s3/pricing/
+atualmente são 8 classes de armazenamento S3, é cobrado para mudar a classe de armazenamento, fique atento e
+Consunte o s3 pricing para mais detalhes.
+
+A classe de armazenamento está ligada ao arquivo dentro da sua bucket e não a Buckut em si, ou seja em uma Bucket
+Pode ter diversos arquivos em diversas classes de armazenamento.
 
 
