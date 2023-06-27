@@ -226,4 +226,28 @@ Consunte o s3 pricing para mais detalhes.
 A classe de armazenamento está ligada ao arquivo dentro da sua bucket e não a Buckut em si, ou seja em uma Bucket
 Pode ter diversos arquivos em diversas classes de armazenamento.
 
+Hospedar um site estático na S3
 
+Criar uma Bucket na S3, depois colocar seu index.html nela, habilitar permissão de ACL do index.html para público. E habilitar  acesso público no bucket.
+ 
+Ciclo de vida no S3
+ 
+No S3 a vários tipos de classe de armazenamento, o mais comum é que seus arquivos fiquem na classe padrão (A mais cara das classes), podemos configurar ciclos de vida no s3 para que depois de um tempo a AWS mova esse arquivo para outro tipo de classe de armazenamento como uma IE ou Glacer por exemplo. Para acessar as regras é só selecionar o bucket > management > create lifecycle rule e configurar conforme a sua necessidade.
+ 
+Replicação de Bucket
+
+É possível replicar os arquivos de uma bucket em uma determinada região para outra região, porém ambas as buckets têm que estar com versionamento habilitado, lembrando que é cobrado o valor de armazenamento de ambas as buckets. Para acessar as regras é só selecionar o bucket > management > create replication rule e configurar conforme a sua necessidade.
+ 
+IAM policy no S3
+
+É possível criar polices para definir quem terá acesso ao seu bucket e é possível fazer isso de várias formas :
+IAM (aplica ao user), Bucket policies (aplicada a bucket), Acces List. 
+ 
+S3 Glacier
+ 
+Foi criado para archive, ou seja, para armazenar arquivos que não serão acessados por um longo espaço de tempo. Existem 2 classes de armazenamento:  S3 Glacier e o S3 Glacier deep archive. Neles podemos habilitar features para cada tipo que são S3 Object Lock e S3 Glacier vault Lock que são utilizados quando você quer colocar o arquivo e ele não pode ser alterado por determinado tempo pré definido, nem o administrador pode alterar o arquivo nesse tempo.
+
+AWS Storage Gateway
+
+Serviço que permite que os servidores que estão dentro da sua empresa (on prommise) possam acessar o s3 na aws
+  
